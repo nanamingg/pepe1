@@ -1,35 +1,34 @@
-import React from "react";
-
 const Header = () => {
   return (
     <header
-      className=""
+      className="header-container"
       style={{
-        backgroundColor: "#039112",
-        fontSize: "23px",
-        fontWeight: "bold",
+        backgroundColor: "#4c9540",
+        fontSize: "20px",
+        fontWeight: "bolder",
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.9)",
       }}
     >
-      <div className="container flex justify-center items-center font-comportaa text-white h-full">
-        <div className="flex items-center">
-          <div className="w-136 h-30 py-6 pr-6">
+      <div className="  flex font-comportaa text-white h-full">
+        <div className="flex items-center mx-auto">
+          <div className="py-10 pb-15 pr-15">
             <img
               src="./images/pepetitle.webp"
               alt="pepetitle"
               style={{ width: "211px", height: "68px" }}
             />
           </div>
-          <ul className="hidden lg:flex ml-6">
-            <li className="header-menu mr-6">home</li>
-            <li className="header-menu mr-6">about</li>
-            <li className="header-menu mr-6">how to buy</li>
-            <li className="header-menu mr-6">bridge</li>
-            <li className="header-menu mr-6">tokenomics</li>
-            <li className="header-menu mr-6">roadmap</li>
+          <ul className="lg:flex ml-6">
+            <button className="ml-6 mr-6">home</button>
+            <button className="mr-6">about</button>
+            <button className="mr-6">how to buy</button>
+            <button className="mr-6">bridge</button>
+            <button className="mr-6">tokenomics</button>
+            <button className="mr-6">roadmap</button>
           </ul>
           <button
-            className="header-menu px-4 py-2 rounded-full border text-sm"
-            style={{ borderColor: "#fff", borderRadius: "20px" }}
+            className="px-8 py-2 rounded-full border ml-10"
+            style={{ borderColor: "#fff", borderRadius: "30px" }}
           >
             buy now
           </button>

@@ -1,10 +1,13 @@
+import About from "./components/About";
 import Header from "./components/Header";
-
+import Home from "./components/Home";
 
 const App = () => {
   return (
-    <div className="font-pretendard text-techit-gray-300">
-      <Header  />
+    <div className="font-pretendard">
+      <Header />
+      <Home />
+      <About />
 
       <div className="mt-20 bg-yellow-100 h-[206px]">Alarm Banner</div>
       <section className="mt-20 bg-green-100 max-w-screen-xl mx-auto px-6">
